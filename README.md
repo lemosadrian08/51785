@@ -42,20 +42,6 @@ npm install antlr4
 
 ---
 
-## 🛠️ Generación del analizador
-
-Desde la raíz del proyecto, ejecutar:
-
-```bash
-java -jar antlr-4.13.2-complete.jar -Dlanguage=JavaScript -Xexact-output-dir -o . AnalizadorAL.g4
-```
-
-Esto generará:
-- `AnalizadorALLexer.js`
-- `AnalizadorALParser.js`
-- Archivos `.tokens`, `.interp`, etc.
-
----
 
 ## ▶️ Ejecución
 
