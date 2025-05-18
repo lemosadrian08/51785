@@ -62,13 +62,6 @@ node index.js
 
 ---
 
-## 💻 ¿Qué hace el programa?
-
-- Realiza análisis léxico y sintáctico.
-- Construye un árbol de derivación.
-- Recorre el árbol con una función interna `walk(...)`.
-
----
 
 ## 🧭 Uso en Visual Studio Code
 
@@ -89,5 +82,13 @@ Para visualizar el árbol de análisis sintáctico y los mensajes de error de fo
   - Cada nodo representa una regla de la gramática o un token.
 
 Esto permite validar de forma visual si la entrada fue procesada correctamente.
+
+---
+
+## 💻 ¿Qué hace el programa?
+
+- Realiza análisis léxico y sintáctico.
+- Construye un árbol de derivación.
+- Recorre el árbol con una función interna `walk(...)`.
 
 ---
