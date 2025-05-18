@@ -1,0 +1,60 @@
+✅ Ejemplo 1 – Suma simple
+
+function sumar(a, b) {
+  console.log(a + b);
+}
+✅ Ejemplo 2 – Resta con identificadores distintos
+
+function restar(x, y) {
+  console.log(x - y);
+}
+✅ Ejemplo 3 – Expresión entre paréntesis
+
+function total(p, q) {
+  console.log((p + q));
+}
+✅ Ejemplo 4 – Identificadores largos
+
+function calcularPromedio(valor1, valor2) {
+  console.log(valor1 + valor2);
+}
+✅ Ejemplo 5 – Suma y cambio de formato
+
+function resultadoFinal(nota, extra) {
+  console.log(nota + extra);
+}
+
+
+❌ Ejemplo 1 – Palabra clave mal escrita
+
+functin sumar(a, b) {
+  console.log(a + b);
+}
+❗ Error esperado: falta la palabra clave function correctamente escrita.
+
+❌ Ejemplo 2 – Falta de paréntesis
+
+function sumar a, b) {
+  console.log(a + b);
+}
+❗ Error esperado: falta el paréntesis izquierdo (.
+
+❌ Ejemplo 3 – Falta de punto y coma
+
+function sumar(a, b) {
+  console.log(a + b)
+}
+❗ Error esperado: falta el ; al final de console.log(...).
+
+❌ Ejemplo 4 – Token inesperado
+
+function sumar(a, b) {
+  console.log(a * b);
+}
+❗ Error esperado: el símbolo * no está definido en la gramática (solo + y -).
+
+❌ Ejemplo 5 – Cierre de llave faltante
+
+function sumar(a, b) {
+  console.log(a + b);
+❗ Error esperado: falta la llave } de cierre del bloque de la función.
