@@ -91,6 +91,3 @@ Para visualizar el árbol de análisis sintáctico y los mensajes de error de fo
 Esto permite validar de forma visual si la entrada fue procesada correctamente.
 
 ---
-
-# 51785
-Analizador Léxico y Sintáctico en JavaScript con ANTLR4
