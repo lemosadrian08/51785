@@ -85,6 +85,90 @@ Esto permite validar de forma visual si la entrada fue procesada correctamente.
 
 ---
 
+## 🧪 Ejemplos de entradas
+
+### ✅ Ejemplos válidos
+
+#### Ejemplo 1 – Suma simple
+```js
+function sumar(a, b) {
+  console.log(a + b);
+}
+```
+
+#### Ejemplo 2 – Resta con identificadores distintos
+```js
+function restar(x, y) {
+  console.log(x - y);
+}
+```
+
+#### Ejemplo 3 – Expresión entre paréntesis
+```js
+function total(p, q) {
+  console.log((p + q));
+}
+```
+
+#### Ejemplo 4 – Identificadores largos
+```js
+function calcularPromedio(valor1, valor2) {
+  console.log(valor1 + valor2);
+}
+```
+
+#### Ejemplo 5 – Suma y cambio de formato
+```js
+function resultadoFinal(nota, extra) {
+  console.log(nota + extra);
+}
+```
+
+---
+
+### ❌ Ejemplos inválidos
+
+#### Ejemplo 1 – Palabra clave mal escrita
+```js
+functin sumar(a, b) {
+  console.log(a + b);
+}
+```
+❗ **Error esperado:** falta la palabra clave `function` correctamente escrita.
+
+#### Ejemplo 2 – Falta de paréntesis
+```js
+function sumar a, b) {
+  console.log(a + b);
+}
+```
+❗ **Error esperado:** falta el paréntesis izquierdo `(`.
+
+#### Ejemplo 3 – Falta de punto y coma
+```js
+function sumar(a, b) {
+  console.log(a + b)
+}
+```
+❗ **Error esperado:** falta el `;` al final de `console.log(...)`.
+
+#### Ejemplo 4 – Token inesperado
+```js
+function sumar(a, b) {
+  console.log(a * b);
+}
+```
+❗ **Error esperado:** el símbolo `*` no está definido en la gramática (solo `+` y `-`).
+
+#### Ejemplo 5 – Cierre de llave faltante
+```js
+function sumar(a, b) {
+  console.log(a + b);
+```
+❗ **Error esperado:** falta la llave `}` de cierre del bloque de la función.
+
+---
+
 ## 💻 ¿Qué hace el programa?
 
 - Realiza análisis léxico y sintáctico.
